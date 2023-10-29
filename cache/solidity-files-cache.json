@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/sanjay/Desktop/nebulax/contracts/Nebulax.sol": {
-      "lastModificationDate": 1698544936504,
-      "contentHash": "67806ef503fb3698e228c0ba9d386850",
+      "lastModificationDate": 1698557943275,
+      "contentHash": "8d348bf6dbb33010c2212077bbc57b85",
       "sourceName": "contracts/Nebulax.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -34,7 +34,7 @@
         "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
-        "^0.8.20"
+        "^0.8.18"
       ],
       "artifacts": [
         "Nebulax"

@@ -14,7 +14,9 @@
     "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "web3": "^4.2.1"
+    "web3": "^4.2.1",
+    "web3modal": "^1.9.12",
+    "xdcpay-connect": "^1.0.3"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
