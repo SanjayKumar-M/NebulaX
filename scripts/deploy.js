@@ -7,7 +7,7 @@ const main =  async() =>{
   const recieveraddress = '0xa151660a77f223e87298de16ee5bb7447982b62f';
 
 
-  const deployContract = await Nebulaxcontract.deploy(); 
+  const deployContract = await Nebulaxcontract.deploy(deployeraddress,recieveraddress); 
   await deployContract.waitForDeployment();
   
   console.log(`Contract deployed successfully to ${deployContract.target}`);
