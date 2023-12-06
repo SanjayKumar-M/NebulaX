@@ -4,6 +4,8 @@ pragma solidity ^0.8.18;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+// a simple defi yielding protocol
+
 contract Nebulax is Ownable(msg.sender) {
     IERC20 public token;         // The token users will provide as liquidity
     IERC20 public rewardToken;   // The token used for rewards
